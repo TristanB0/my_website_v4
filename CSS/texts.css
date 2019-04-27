@@ -1,0 +1,39 @@
+a:link, a:visited, a:active {
+	color: deepskyblue;
+	text-decoration: none;
+}
+
+a:hover {
+	color: skyblue;
+	text-decoration: none;
+}
+
+h1, h2, h3, ul.menu li a, div.menu a {
+	font-family: 'pirulen';
+}
+
+div.menu a {
+	display: inline;
+	margin: auto;
+	font-size: medium;
+}
+
+div.menu a:hover {
+	text-shadow: white 0px 0px 20px 20px;
+	position: relative;
+	bottom: 2px;
+}
+
+
+@font-face {
+	font-family: 'pirulen';
+	src: url(../assets/pirulen.ttf);
+}
+
+
+@media (max-width: 800px) {
+	div.menu a {
+		display: block;
+		padding: 5px;
+	}
+}
